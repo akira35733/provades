@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ingresso</title>
+ <link rel="stylesheet" type="text/css" href="reset.css">
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body background="arctic.jpg" id="am">
+      <header>
+
+        <div class="caixa">
+          <h1> <img src="ae.png" id="aee"></h1>
+       <nav>
+         <ul>
+           <li> <a href="info.html"> Sobre a banda </a> </li>
+           <li> <a href="albuns.html"> Albuns </a> </li>
+           <li> <a href="index.html"> Ingressos </a> </li>
+         </ul>
+       </nav>
+          </div>
+      </header>
+
+      <main>
+        <h2> Contato </h2>
+
+        <form>
+          <label for="nomesobrenome"> Nome e Sobrenome </label>
+          <input type="text"   id="nomesobrenome" class="input-padrao" required>
+
+     <label for="email">Email</label>
+     <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+     <label for="telefone"> Telefone</label>
+     <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+<fieldset>
+      <legend> Método de Pagamento</legend>
+      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">PIX</label>
+      <label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp">Cartão de Crédito</label>
+      <label for="radio-telefone"><input type="radio" name="contato" value="email" id="radio-telefone">Cartão de Débito</label>
+      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Boleto</label>
+    </fieldset>
+
+     <fieldset>
+       <legend>Shows Disponíeis</legend>
+      <select>
+         <option>Segunda</option>
+        <option>Quarta</option>
+        <option>Sexta</option>
+      </select>
+
+     </fieldset>
+     <fieldset>
+       <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+       <input type="submit" name="Enviar formulário" class="enviar">
+      </fieldset>
+  </form>
+
+  <table>
+    <thead>
+     <tr>
+      <th>Dia</th>
+      <th>Horário</th>
+        </tr>
+  </thead>
+  <tbody>
+  <td>Segunda </td>
+  <td> 20h ~ 23h</td>
+</tr>
+  <tr>
+     <td>Quarta</td>
+  <td>20h ~ 22h</td>
+  </tr>
+  <tr>
+     <td>Sexta</td>
+  <td>21h ~ 23h</td>
+  </tr>
+</tbody>
+  </table>
+
+
+     </main>
+
+     <footer>
+       <img src="ae.png" id="aee">
+       <p class="copyright">&copy; Copyright Arctic Monkeys - 2023 </p>
+    </footer>
+    </body>

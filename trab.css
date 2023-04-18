@@ -1,0 +1,65 @@
+.am{
+  background-image: url(am.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+}
+.principal{
+background:#BA55D3;
+}
+.gif {
+    text-align: center;
+  padding: 15px;
+}
+
+.titulo-principal{
+text-align: center;
+font-size: 50px;
+color:  #B22222;
+}
+.titulo-secundario{
+font-size: 30px;
+color: #B22222;
+font-style: oblique;
+}
+#missao{
+font-size: 25px;
+color: #B22222;
+font-style: oblique;
+}
+.beneficios{
+font-style: italic;
+font-size: 25px;
+text-align: left;
+color: #B22222;
+}
+#cururu{
+font-size: 25px;
+  color: 	#B22222;
+font-style: oblique;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: inherit;
+}
+#aaa{
+  width: 20%;
+}
+#bbb{
+  width:25%;
+  display:;
+}
+.bg{
+  background-image: url(popo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ }
+ 
