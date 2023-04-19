@@ -3,8 +3,11 @@ header{
 }
 
 #am{
-  background-repeat: no-repeat;
-  background-size: 125%;
+  background-image: url(am.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .caixa{
